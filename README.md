@@ -4,7 +4,7 @@ This repository contains a simple login page and dashboard interface built with 
 
 ## Features
 
-- **Login Page**: Users can enter their VTOP username and password to log in.
+- **Login Page**: Users can enter their username and password to log in.
 - **Dashboard**: Displays a header with navigation options, a form for input, statistics in emoji format, graphs, and a table to show user data.
 - **Theme Switcher**: A feature to toggle between light and dark themes using a simple script.
 
