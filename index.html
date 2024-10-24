@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard_style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-left">
+            <h1 class="title">Dashboard</h1>
+        </div>
+        <div class="header-right">
+            <span class="tooltip">
+                <span class="icon">🏠</span>
+                <span class="tooltiptext">Home</span>
+            </span>
+            <span class="tooltip">
+                <span class="icon mode-switch" id="mode-icon" onclick="toggleTheme()">🌙</span>
+                <span class="tooltiptext">Switch Theme</span>
+            </span>
+            <span class="tooltip">
+                <span class="icon">🚀</span>
+                <span class="tooltiptext">Logout</span>
+            </span>
+        </div>
+    </header>
+    <main>
+        <!-- Row 1: Full-width Form -->
+        <section class="form-section">
+            <form class="responsive-form">
+                <input type="text" id="name" name="name" required>
+                <input type="email" id="email" name="email" required>
+                <select id="role" name="role">
+                    <option value="admin">Admin</option>
+                    <option value="user">User</option>
+                    <option value="guest">Guest</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Row 2: Full-width Mini Statistics Blocks -->
+        <section class="stats-section">
+            <div class="stat-block">
+                <div class="stat-title">Total Users</div>
+                <div class="stat-content">
+                    <div class="stat-emoji">👤</div>
+                    <div class="stat-count">200</div>
+                </div>
+            </div>
+            <div class="stat-block">
+                <div class="stat-title">Total Sales</div>
+                <div class="stat-content">
+                    <div class="stat-emoji">💰</div>
+                    <div class="stat-count">1500</div>
+                </div>
+            </div>
+            <div class="stat-block">
+                <div class="stat-title">Total Revenue</div>
+                <div class="stat-content">
+                    <div class="stat-emoji">📈</div>
+                    <div class="stat-count">20,000</div>
+                </div>
+            </div>
+            <div class="stat-block">
+                <div class="stat-title">New Signups</div>
+                <div class="stat-content">
+                    <div class="stat-emoji">🎉</div>
+                    <div class="stat-count">50</div>
+                </div>
+            </div>
+            <div class="stat-block">
+                <div class="stat-title">Support Tickets</div>
+                <div class="stat-content">
+                    <div class="stat-emoji">🎫</div>
+                    <div class="stat-count">5</div>
+                </div>
+            </div>
+            <div class="stat-block">
+                <div class="stat-title">New Feedback</div>
+                <div class="stat-content">
+                    <div class="stat-emoji">💬</div>
+                    <div class="stat-count">10</div>
+                </div>
+            </div>
+        </section>      
+
+        <!-- Row 2: Three-column Graphs -->
+        <section class="graph-section">
+            <div class="graph-block">Graph 1</div>
+            <div class="graph-block">Graph 2</div>
+            <div class="graph-block">Graph 3</div>
+        </section>
+
+        <!-- Row 3: Full-width Table -->
+        <section class="table-section">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Status</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Anthoniraj Amalanathan</td>
+                        <td>Active</td>
+                        <td>2024-10-25</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Kumar Kannan</td>
+                        <td>Inactive</td>
+                        <td>2024-10-20</td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="js/switch-mode.js"></script>
+</body>
+
+</html>
