@@ -9,10 +9,10 @@ This repository contains a simple login page and dashboard interface built with 
 - **Theme Switcher**: A feature to toggle between light and dark themes using a simple script.
 
 ## Screenshots
-- Login Screen in Light Mode 
+- Login Screen in Light Mode (Responsive) 
 ![Screenshot 0](images/Screenshot0.png)
 
-- Login Screen in Dark Mode
+- Login Screen in Dark Mode (Responsive)
 ![Screenshot 1](images/Screenshot01.png)
 
 - Light Mode with Wide Layout
