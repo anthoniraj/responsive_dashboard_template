@@ -40,11 +40,6 @@ This repository contains a simple login page and dashboard interface built with 
 
 4. Navigate to the `dashboard.html` file to access the dashboard interface.
 
-## Usage
-
-- On the **Login Page**, enter your VTOP username and password, then click the "Login" button to simulate a login action.
-- On the **Dashboard**, you can see various statistics represented with emojis, fill out the form for user details, and view a table with user data.
-
 ## Customization
 
 - **Theme Switcher**: Modify the `switch-mode.js` file to change the theme colors as per your requirements.
