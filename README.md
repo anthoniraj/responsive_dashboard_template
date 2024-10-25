@@ -13,7 +13,7 @@ This repository contains a simple login page and dashboard interface built with 
 ![Screenshot 0](images/Screenshot0.png)
 
 - Login Screen in Dark Mode 
-![Screenshot 01](images/Screenshot01.png)
+![Screenshot 1](images/Screenshot01.png)
 
 - Light Mode with Wide Layout
 ![Screenshot 1](images/Screenshot1.png)
