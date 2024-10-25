@@ -8,6 +8,16 @@ This repository contains a simple login page and dashboard interface built with 
 - **Dashboard**: Displays a header with navigation options, a form for input, statistics in emoji format, graphs, and a table to show user data.
 - **Theme Switcher**: A feature to toggle between light and dark themes using a simple script.
 
+## Screenshots
+- Light Mode with Wide Layout
+![Screenshot 1](images/Screenshot1.png)
+
+- Dark Mode with Wide Layout
+![Screenshot 2](images/Screenshot2.png)
+
+- Light Mode with Mobile Layout
+![Screenshot 3](images/Screenshot3.png)
+
 ## Directory Structure
 
 ```
